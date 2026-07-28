@@ -58,8 +58,17 @@ public class AuthService {
                 )
         );
 
-        String token = jwtService.generateToken(request.getEmail());
+        User user = userRepository.findByEmail(request.getEmail())
+                .orElseThrow(() -> new RuntimeException("User not found"));
 
-        return new AuthResponse(token, "Login Successful");
+        String token = jwtService.generateToken(user.getEmail());
+
+        return new AuthResponse(
+                user.getId(),
+                user.getFullName(),
+                user.getEmail(),
+                token,
+                "Login Successful"
+        );
     }
 }
