@@ -39,7 +39,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.GET, "/news/**").permitAll()
 
                         .requestMatchers(HttpMethod.POST, "/news/**")
-                        .hasRole("ADMIN")
+                        .permitAll()
 
                         .requestMatchers(HttpMethod.PUT, "/news/**")
                         .hasRole("ADMIN")
