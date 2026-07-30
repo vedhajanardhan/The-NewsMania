@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="YOUR_BANNER_LINK_HERE" width="100%" alt="NewsMania Banner">
-</p>
+![Uploading ChatGPT Image Jul 30, 2026, 01_50_58 PM.png…]()
+
 
 <h1 align="center">📰 NewsMania</h1>
 
