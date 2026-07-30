@@ -1,6 +1,7 @@
 ![Uploading ChatGPT Image Jul 30, 2026, 01_50_58 PM.png…]()
 
 
+
 <h1 align="center">📰 NewsMania</h1>
 
 <p align="center">
