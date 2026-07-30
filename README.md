@@ -111,5 +111,15 @@ The application follows a layered client-server architecture where the React fro
 <p align="center">
   <img src="assets/system-architecture.png" alt="System Architecture" width="100%">
 </p>
+
+# 🗄️ Database Design
+
+The NewsMania application uses a relational PostgreSQL database to manage user accounts and news articles. The backend leverages Spring Data JPA and Hibernate ORM for efficient data persistence and entity mapping.
+
+<p align="center">
+  <img src="assets/er-diagram.png" alt="NewsMania ER Diagram" width="95%">
+</p>
+
+---
                         
         
