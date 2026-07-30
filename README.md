@@ -226,5 +226,133 @@ The following screenshots provide an overview of the NewsMania application inter
 </p>
 
 ---
+
+# ⚙️ Installation & Setup
+
+Follow these steps to run the project locally.
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/vedhajanardhan/The-NewsMania.git
+cd The-NewsMania
+```
+
+---
+
+## 2️⃣ Backend Setup (Spring Boot)
+
+```bash
+cd backend
+```
+
+### Configure PostgreSQL
+
+Update the `application.properties` file:
+
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/newsmania
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+```
+
+### Run the Backend
+
+```bash
+./mvnw spring-boot:run
+```
+
+or
+
+```bash
+mvn spring-boot:run
+```
+
+The backend will start at:
+
+```
+http://localhost:8080
+```
+
+---
+
+## 3️⃣ Frontend Setup (React + Vite)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 4️⃣ API Documentation
+
+Once the backend is running, Swagger UI can be accessed at:
+
+```
+http://localhost:8080/swagger-ui/index.html
+```
+
+---
+
+# 🚀 Deployment
+
+The application is deployed using modern cloud platforms to ensure accessibility and scalability.
+
+| Component | Platform |
+|-----------|----------|
+| Frontend | Vercel |
+| Backend | Railway |
+| Database | Neon PostgreSQL |
+| API Documentation | Swagger / OpenAPI |
+
+### Deployment Architecture
+
+- **Frontend** is deployed on **Vercel**
+- **Backend REST API** is deployed on **Railway**
+- **PostgreSQL database** is hosted on **Neon**
+- **Swagger UI** is available for API testing and documentation
+
+---
+
+# 🔮 Future Enhancements
+
+The following enhancements are planned to further improve the application:
+
+- ⭐ Bookmark and save favorite news articles
+- 🔍 Advanced search and filtering
+- 🌙 Dark mode support
+- 💬 Comments and user interactions
+- 📊 Admin dashboard with analytics
+- 🔔 Email notifications for breaking news
+- 📱 Progressive Web App (PWA) support
+- ☁️ Docker containerization for simplified deployment
+- 🧪 Unit and integration test coverage using JUnit and Mockito
+
+---
+
+# 👩‍💻 Author
+
+**Vedh Janardhan**
+
+- 🎓 Information Science Engineering Student
+- 💻 Aspiring Software Development Engineer (Backend / Full Stack)
+- 🌱 Passionate about Java, Spring Boot, React, REST APIs, and Backend Development
+
+### 📬 Connect with Me
+
+- **GitHub:** https://github.com/vedhajanardhan
+- **LinkedIn:** www.linkedin.com/in/vedhajanardhan123
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
                         
         
