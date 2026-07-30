@@ -50,3 +50,57 @@ Whether deployed locally or in the cloud, NewsMania is designed with maintainabi
 > **Note:** The backend is deployed on Railway's free tier. If the service has been idle, the first request may take a few seconds while it wakes up.
 
 ---
+# ✨ Features
+
+## 👤 Authentication & Security
+- Secure user registration and login
+- JWT-based authentication
+- Password encryption using Spring Security
+- Protected API endpoints
+- Role-based authorization support
+
+## 📰 News Management
+- Create, update, and delete news articles
+- Browse all published news
+- View detailed news articles
+- Search and manage news efficiently
+
+## 💻 Responsive User Interface
+- Clean and responsive React-based interface
+- Modern component-based architecture
+- User-friendly navigation
+- Optimized for desktop and mobile devices
+
+## 🔗 RESTful APIs
+- Well-structured REST API design
+- JSON request and response handling
+- Proper HTTP status codes
+- Interactive API documentation using Swagger UI
+
+## 🗄 Database Management
+- PostgreSQL database integration
+- Efficient data persistence using Spring Data JPA
+- Entity relationships managed with Hibernate ORM
+
+## ☁ Deployment
+- Backend deployed on Railway
+- Frontend deployed on Vercel
+- Production-ready REST API
+- Cloud-hosted PostgreSQL database
+
+---
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | React, Vite, JavaScript, HTML5, CSS3 |
+| **Backend** | Java 21, Spring Boot, Spring MVC, Spring Data JPA |
+| **Security** | Spring Security, JWT Authentication, BCrypt Password Encoder |
+| **Database** | PostgreSQL, Hibernate ORM |
+| **API Documentation** | Swagger / OpenAPI |
+| **Build Tool** | Maven |
+| **Version Control** | Git, GitHub |
+| **Deployment** | Railway (Backend), Vercel (Frontend) |
+| **IDE & Tools** | IntelliJ IDEA, VS Code, Postman |
+
+---
