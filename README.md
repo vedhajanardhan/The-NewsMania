@@ -340,7 +340,7 @@ The following enhancements are planned to further improve the application:
 
 # 👩‍💻 Author
 
-**Vedh Janardhan**
+**Vedha Janardhan**
 
 - 🎓 Information Science Engineering Student
 - 💻 Aspiring Software Development Engineer (Backend / Full Stack)
