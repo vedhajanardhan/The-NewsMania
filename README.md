@@ -121,5 +121,49 @@ The NewsMania application uses a relational PostgreSQL database to manage user a
 </p>
 
 ---
+
+# 📂 Project Structure
+
+```text
+The-NewsMania
+│
+├── backend
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   └── com.newsmania
+│   │   │   │       ├── config
+│   │   │   │       ├── controller
+│   │   │   │       ├── dto
+│   │   │   │       ├── entity
+│   │   │   │       ├── repository
+│   │   │   │       ├── security
+│   │   │   │       ├── service
+│   │   │   │       └── NewsmaniaApplication.java
+│   │   │   └── resources
+│   │   │       └── application.properties
+│   │   └── test
+│   └── pom.xml
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── services
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── assets
+│   ├── banner.png
+│   ├── system-architecture.png
+│   └── er-diagram.png
+│
+└── README.md
+```
+
+---
                         
         
