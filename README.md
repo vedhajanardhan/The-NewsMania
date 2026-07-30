@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="YOUR_BANNER_IMAGE_HERE" alt="NewsMania Banner" width="100%">
+  <img src="assets/banner.png" alt="NewsMania Banner" width="100%">
 </p>
 
 <h1 align="center">📰 NewsMania</h1>
