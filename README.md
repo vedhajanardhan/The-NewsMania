@@ -28,3 +28,25 @@ A secure, scalable and responsive News Management Platform built using Spring Bo
 </p>
 
 ---
+# 🚀 Overview
+
+**NewsMania** is a modern full-stack news platform that enables users to discover, browse, and manage news articles through a secure and responsive web application.
+
+The application follows a **client-server architecture**, with a **Spring Boot** backend exposing RESTful APIs and a **React** frontend providing an interactive user experience. It uses **JWT-based authentication** to secure protected operations and **PostgreSQL** as the persistent data store.
+
+This project was built to demonstrate practical software engineering concepts such as layered architecture, REST API development, authentication and authorization, database integration, API documentation, cloud deployment, and full-stack application development.
+
+Whether deployed locally or in the cloud, NewsMania is designed with maintainability, scalability, and clean code practices in mind.
+
+---
+# 🌐 Live Demo
+
+| Service | Link |
+|---------|------|
+| 🖥️ Frontend | https://the-news-mania-nine.vercel.app |
+| ⚙️ Backend API | https://the-newsmania-production.up.railway.app |
+| 📚 Swagger API Documentation | https://the-newsmania-production.up.railway.app/swagger-ui/index.html |
+
+> **Note:** The backend is deployed on Railway's free tier. If the service has been idle, the first request may take a few seconds while it wakes up.
+
+---
