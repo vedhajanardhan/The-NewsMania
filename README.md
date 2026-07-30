@@ -165,5 +165,38 @@ The-NewsMania
 ```
 
 ---
+# 📡 API Endpoints
+
+The backend exposes RESTful APIs for authentication and news management. All protected endpoints require a valid JWT token.
+
+## 🔐 Authentication APIs
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/auth/register` | Register a new user |
+| POST | `/auth/login` | Authenticate user and generate JWT token |
+
+---
+
+## 📰 News APIs
+
+| Method | Endpoint | Description | Authentication |
+|--------|----------|-------------|----------------|
+| GET | `/news` | Retrieve all news articles | ❌ No |
+| GET | `/news/{id}` | Retrieve a news article by ID | ❌ No |
+| POST | `/news` | Create a new news article | ✅ Yes |
+| PUT | `/news/{id}` | Update an existing news article | ✅ Yes |
+| DELETE | `/news/{id}` | Delete a news article | ✅ Yes |
+
+---
+
+## 📖 API Documentation
+
+Interactive API documentation is available through **Swagger UI**.
+
+🔗 **Swagger UI:**  
+https://the-newsmania-production.up.railway.app/swagger-ui/index.html
+
+---
                         
         
