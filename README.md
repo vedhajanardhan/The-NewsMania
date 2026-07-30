@@ -107,33 +107,9 @@ Whether deployed locally or in the cloud, NewsMania is designed with maintainabi
 # 🏗️ System Architecture
 
 The application follows a layered client-server architecture where the React frontend communicates with the Spring Boot backend through REST APIs. Authentication is handled using JWT, and all persistent data is stored in PostgreSQL using Spring Data JPA and Hibernate.
-                        ┌───────────────────────┐
-                        │        👤 User         │
-                        └──────────┬────────────┘
-                                   │
-                                   │ HTTP Requests
-                                   ▼
-                 ┌─────────────────────────────────┐
-                 │      React + Vite Frontend      │
-                 └──────────┬──────────────────────┘
-                            │
-                            │ REST API
-                            ▼
-          ┌─────────────────────────────────────────────┐
-          │           Spring Boot Backend               │
-          │                                             │
-          │  • Spring MVC                               │
-          │  • Spring Security                          │
-          │  • JWT Authentication                       │
-          │  • REST Controllers                         │
-          └──────────┬──────────────────────────────────┘
-                     │
-                     ▼
-         ┌───────────────────────────────────┐
-         │     Spring Data JPA + Hibernate   │
-         └──────────┬────────────────────────┘
-                    │
-                    ▼
-          ┌────────────────────────────┐
-          │      PostgreSQL Database   │
-          └────────────────────────────┘
+
+<p align="center">
+  <img src="assets/system-architecture.png" alt="System Architecture" width="100%">
+</p>
+                        
+        
