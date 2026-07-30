@@ -198,5 +198,33 @@ Interactive API documentation is available through **Swagger UI**.
 https://the-newsmania-production.up.railway.app/swagger-ui/index.html
 
 ---
+
+# 📸 Application Screenshots
+
+The following screenshots provide an overview of the NewsMania application interface and the backend API documentation.
+
+## 🏠 Frontend
+
+<p align="center">
+  <img src="assets/frontend-home.png" alt="NewsMania Frontend" width="100%">
+</p>
+
+<p align="center">
+  <i>Responsive React-based user interface for browsing and searching news articles.</i>
+</p>
+
+---
+
+## 📖 Swagger API Documentation
+
+<p align="center">
+  <img src="assets/swagger-ui.png" alt="Swagger UI" width="100%">
+</p>
+
+<p align="center">
+  <i>Interactive OpenAPI documentation for testing and exploring REST endpoints.</i>
+</p>
+
+---
                         
         
